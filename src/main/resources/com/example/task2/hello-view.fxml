@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task2.HelloController">
+   <children>
+      <ColorPicker fx:id="color" layoutX="14.0" layoutY="349.0" />
+      <TextField fx:id="numb_s" layoutX="14.0" layoutY="307.0" />
+      <Button layoutX="170.0" layoutY="349.0" mnemonicParsing="false" onAction="#Ondraw" text="Button" />
+      <Canvas fx:id="can" height="348.0" layoutX="252.0" layoutY="26.0" width="328.0" />
+   </children>
+</AnchorPane>
